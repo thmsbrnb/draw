@@ -111,10 +111,6 @@ main:before {
 /* ------------------------- */
 /* Disabled on mobile devices > 560px */
 @media screen and (max-width: 560px) {
-    main {
-        height: 100vh;
-    }
-
     main:before {
         content: none;
     }
