@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=dvc-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="app.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&family=Poppins:wght@100;300;400;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <script src="app.js" defer></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+            integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+            crossorigin="anonymous"
+        ></script>
+        <title>Draw: a very random game</title>
+    </head>
+    <body>
+        <main>
+            <div class="device">
+                <div class="dvc-btn btn-1"></div>
+                <div class="dvc-btn btn-2"></div>
+                <div class="dvc-btn btn-3" id="btn_lock"></div>
+                <div class="dvc-seal ds-1"></div>
+                <div class="dvc-seal ds-2"></div>
+                <div class="dvc-seal ds-3"></div>
+                <div class="dvc-seal ds-4"></div>
+                <div class="dvc-seal ds-5"></div>
+                <div class="dvc-seal ds-6"></div>
+                <div class="dvc-seal ds-7"></div>
+                <div class="dvc-seal ds-8"></div>
+                <div class="dvc-inner">
+                    <div class="dvc-notch"></div>
+                    <div class="dvc-status-bar">
+                        <div class="dvc-time-indicator">Hello !</div>
+                        <div class="dvc-battery-indicator"></div>
+                    </div>
+                    <div class="dvc-safe-area">
+                        <div class="view view-home">
+                            <div class="container">
+                                <div class="view-title">Draw</div>
+                                <div class="view-subtitle">
+                                    A very random game
+                                </div>
+                                <button class="btn" id="to_player">
+                                    Choose Players
+                                </button>
+                            </div>
+                        </div>
+                        <div class="view view-player">
+                            <div class="container">
+                                <div class="view-subtitle">
+                                    <span>🥋</span>&nbsp;Choose players
+                                </div>
+                                <form class="view-player-form">
+                                    <label for="">Player #1</label>
+                                    <input type="text" maxlength="10" />
+                                    <div class="spacer"></div>
+                                    <label for="">Player #2</label>
+                                    <input type="text" maxlength="10" />
+                                </form>
+                                <button class="btn" id="to_field">
+                                    Fight !
+                                </button>
+                            </div>
+                        </div>
+                        <div class="view view-field">
+                            <div class="container">
+                                <div class="wrapper-top">
+                                    <div class="view-title">Draw</div>
+                                    <div class="view-subtitle">
+                                        A very random game
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div class="row">
+                                        <div class="col col-1">
+                                            <img
+                                                src="media/dice_1.svg"
+                                                alt="dice"
+                                            />
+                                        </div>
+                                        <div class="col col-2">
+                                            <div class="u-name u-name-1">
+                                                Player #1
+                                            </div>
+                                            <div class="u-score u-score-1">
+                                                Score: 0
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="spacer"></div>
+                                    <div class="row">
+                                        <div class="col col-3">
+                                            <div class="u-name u-name-2">
+                                                Player #2
+                                            </div>
+                                            <div class="u-score u-score-2">
+                                                Score: 0
+                                            </div>
+                                        </div>
+                                        <div class="col col-4">
+                                            <img
+                                                src="media/dice_2.svg"
+                                                alt="dice"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrapper-bottom">
+                                    <div class="row">
+                                        <button class="btn" id="reset">
+                                            Reset
+                                        </button>
+                                        <button class="btn" id="play">
+                                            Play
+                                        </button>
+                                    </div>
+                                    <div class="row">
+                                        <button class="btn" id="back_to_player">
+                                            Change players
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dvc-bottom-bar">2023 Thomas Barnabé</div>
+                </div>
+            </div>
+            <div class="dvc-plug">
+                <div class="dvc-tip">
+                    <div class="dvc-tip-inner">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="dvc-cable"></div>
+            </div>
+        </main>
+    </body>
+</html>
