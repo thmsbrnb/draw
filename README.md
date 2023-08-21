@@ -4,4 +4,4 @@ Draw was originally an application project during my training. I then refactored
 
 [Try Draw](https://thmsbrnb.github.io/draw/)
 
-![TV - 1](https://github.com/thmsbrnb/draw/assets/72267490/ee54d0f6-c584-4fee-ab93-c1eb2ae886b8)
+![Draw - Mockup](https://github.com/thmsbrnb/draw/assets/72267490/11df08ea-da98-4339-9d1d-a2917ba6fdb5)
